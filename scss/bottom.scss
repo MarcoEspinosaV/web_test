@@ -1,0 +1,103 @@
+.container-fluid.cff{
+  background: $background;
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  padding: 0;
+  flex-wrap: wrap;
+  .container{
+    margin-top: 20px;
+    justify-content: space-between;
+    .formulario{
+      .form-inline{
+        #form-group{
+          flex: 1;
+          margin-left: 10px;
+          margin-right: 5px;
+          width: 400px;
+          height: 30px;
+          background: #F7F7F7;
+        }
+        #btnSusM{
+          height: 30px;
+          width: 195px;
+          background: #747474;
+          color: white;
+          margin-top: 20px;
+          font-size: 14px;
+        }
+        #btnSusF{
+          height: 30px;
+          width: 195px;
+          background: #747474;
+          color: white;
+          margin-top: 20px;
+          font-size: 14px;
+        }
+      }
+    }
+    .form-check{
+      justify-content: center;
+      #defaultCheck1{
+        position: relative;
+        left: 268px;
+      }
+      #lbl{
+        position: relative;
+        left: 275px;
+      }
+    }
+  }
+  .container.ico-bot{
+    .row{
+      #icoPay{
+        margin-top: 15px;
+        position: relative;
+        left: 33px;
+        font-size: 2em;
+        color: gray;
+      }
+      #icoVisa{
+        margin-top: 15px;
+        position: relative;
+        left: 22px;
+        font-size: 2em;
+        color: gray;
+      }
+      #icoMas{
+        margin-top: 15px;
+        position: relative;
+        left: 33px;
+        font-size: 2em;
+        color: gray;
+      }
+      #icoDiner{
+        margin-top: 15px;
+        position: relative;
+        left: 23px;
+        font-size: 2em;
+        color: gray;
+      }
+      #icoDis{
+        margin-top: 15px;
+        position: relative;
+        left: 23px;
+        font-size: 2em;
+        color: gray;
+      }
+      #icoAme{
+        margin-top: 15px;
+        position: relative;
+        left: 25px;
+        font-size: 2em;
+        color: gray;
+      }
+    }
+  }
+  .container.ltr{
+    .row{
+      color: gray;
+      font-size: 15px;
+    }
+  }
+}

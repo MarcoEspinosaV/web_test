@@ -1,0 +1,280 @@
+.container-fluid.ccf {
+  background: #F2F2F2;
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  padding: 0;
+}
+.container-fluid.ccf .container {
+  justify-content: space-between;
+}
+.container-fluid.ccf .container .navbar #navbarSupportedContent {
+  flex: 1;
+}
+.container-fluid.ccf .container .navbar #navbarSupportedContent .btn-addon {
+  background: #FF5020;
+}
+.container-fluid.ccf .container .navbar #group-ico .nav-item .ico-nav {
+  border: 0;
+  margin-left: 5px;
+  width: 50px;
+  height: 40px;
+  background: #F2F2F2;
+  font-size: 1.5em;
+  color: gray;
+}
+
+.container.bann {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+.container.bann .item #img-banner-top {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.container.img {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 0;
+}
+.container.img .item {
+  padding: 0;
+}
+.container.img .item #img_1 {
+  margin-top: 10px;
+  max-width: 100%;
+  max-height: 100%;
+}
+.container.img .item #img_2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  max-width: 100%;
+  max-height: 100%;
+}
+.container.img .item #img_3 {
+  padding: 7px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 920px) {
+  .container.img {
+    flex-wrap: wrap;
+  }
+}
+.container.ico-top {
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.container.ico-top #ico-top {
+  font-size: 2.5em;
+  color: tomato;
+  margin-right: 15px;
+}
+.container.ico-top p {
+  font-size: 20px;
+}
+
+.container.img-middle {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 0;
+}
+.container.img-middle .col-12 #img_mid_1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 0;
+  flex: 1;
+  max-width: 100%;
+  max-height: 100%;
+}
+.container.img-middle .col-6 #img_mid_2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.container.img-middle .col-6 #img_mid_3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media (max-width: 920px) {
+  .container.img-middle {
+    flex-wrap: wrap;
+  }
+}
+.container.slide1 {
+  margin-bottom: 15px;
+}
+
+.container.slide2 {
+  margin-bottom: 15px;
+}
+
+.container.slide3 {
+  margin-bottom: 15px;
+}
+
+.container.nav-bot {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 15px;
+  color: gray;
+  flex-wrap: nowrap;
+}
+.container.nav-bot .col-3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.container.nav-bot .col-3 .fas {
+  font-size: 1.3em;
+  color: gray;
+}
+.container.nav-bot .col-3 p {
+  font-size: 15px;
+}
+.container.nav-bot .col-3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.container.nav-bot .col-3 .far {
+  font-size: 1.3em;
+  color: gray;
+}
+.container.nav-bot .col-3 p {
+  font-size: 15px;
+}
+
+.container.text .row p {
+  font-size: 14px;
+  color: gray;
+}
+
+.container.glosary {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.container.glosary .nav .nav-link {
+  font-size: 13px;
+  color: gray;
+}
+
+.container-fluid.cff {
+  background: #F2F2F2;
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.container-fluid.cff .container {
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.container-fluid.cff .container .formulario .form-inline #form-group {
+  flex: 1;
+  margin-left: 10px;
+  margin-right: 5px;
+  width: 400px;
+  height: 30px;
+  background: #F7F7F7;
+}
+.container-fluid.cff .container .formulario .form-inline #btnSusM {
+  height: 30px;
+  width: 195px;
+  background: #747474;
+  color: white;
+  margin-top: 20px;
+  font-size: 14px;
+}
+.container-fluid.cff .container .formulario .form-inline #btnSusF {
+  height: 30px;
+  width: 195px;
+  background: #747474;
+  color: white;
+  margin-top: 20px;
+  font-size: 14px;
+}
+.container-fluid.cff .container .form-check {
+  justify-content: center;
+}
+.container-fluid.cff .container .form-check #defaultCheck1 {
+  position: relative;
+  left: 268px;
+}
+.container-fluid.cff .container .form-check #lbl {
+  position: relative;
+  left: 275px;
+}
+.container-fluid.cff .container.ico-bot .row #icoPay {
+  margin-top: 15px;
+  position: relative;
+  left: 33px;
+  font-size: 2em;
+  color: gray;
+}
+.container-fluid.cff .container.ico-bot .row #icoVisa {
+  margin-top: 15px;
+  position: relative;
+  left: 22px;
+  font-size: 2em;
+  color: gray;
+}
+.container-fluid.cff .container.ico-bot .row #icoMas {
+  margin-top: 15px;
+  position: relative;
+  left: 33px;
+  font-size: 2em;
+  color: gray;
+}
+.container-fluid.cff .container.ico-bot .row #icoDiner {
+  margin-top: 15px;
+  position: relative;
+  left: 23px;
+  font-size: 2em;
+  color: gray;
+}
+.container-fluid.cff .container.ico-bot .row #icoDis {
+  margin-top: 15px;
+  position: relative;
+  left: 23px;
+  font-size: 2em;
+  color: gray;
+}
+.container-fluid.cff .container.ico-bot .row #icoAme {
+  margin-top: 15px;
+  position: relative;
+  left: 25px;
+  font-size: 2em;
+  color: gray;
+}
+.container-fluid.cff .container.ltr .row {
+  color: gray;
+  font-size: 15px;
+}

@@ -1,0 +1,222 @@
+/*html, body{
+    width: 100%;
+    height: 100%;
+
+}
+
+.container-fluid.ccf .container{
+    background: #F2F2F2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+#navbarSupportedContent{
+    flex: 1;
+    border: 1px solid #CCCCCC;
+    background: #F7F7F7;
+}
+.container .navbar{
+    width: 100%;
+}
+.row.img{
+    display: -webkit-box;
+}
+#btn_submit{
+    width: 50px;
+    height: 40px;
+    background: #FF5020;
+}
+#btn_truck{
+    margin-left: 5px;
+    border: 0;
+    background: #F2F2F2;
+    outline: none;
+}
+#btn_user{
+    margin-left: 5px;
+    border: 0;
+    background: #F2F2F2;
+    outline: none;
+}
+#btn_shopping{
+    margin-left: 5px;
+    border: 0;
+    background: #F2F2F2;
+    outline: none;
+}
+#ifo{
+    border-top: 2px solid #EAEAEA;
+    background: white;
+}
+#info{
+    height: 33px;
+    background: white;
+}
+#carouselExampleSlidesOnly{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 290px;
+}
+#carrusel{
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    border-top: 2px solid #EAEAEA;
+    height: 290px;
+}
+#img-carru{
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    flex: 1;
+}
+small{
+    color: #000;
+}
+#margin_top{
+    margin-top: 15px;
+}
+#ltr{
+    font-size: larger;
+    position: relative;
+    left: 450px;
+    margin-top: 15px;
+}
+.ltr_1{
+    font-size: larger;
+    position: relative;
+    margin-top: 15px;
+    color: #333333;
+}
+#formSus{
+    width: 400px;
+    height: 30px;
+    background: #F7F7F7;
+    font-size: 14px;
+}
+#btnSusM{
+    width: 205px;
+    height: 30px;
+    position: absolute;
+    left: 860px;
+    background: #747474;
+    color: white;
+    font-size: 14px;
+}
+#btnSusF{
+    width: 205px;
+    height: 30px;
+    position: absolute;
+    left: 1070px;
+    background: #747474;
+    font-size: 14px;
+}
+#defaultCheck1{
+    position: relative;
+    margin-top: 8px;
+    left: 263px;
+}
+#lbl{
+    margin-top: 8px;
+    position: relative;
+    left: 265px;
+}
+#icoPay{
+    margin-top: 20px;
+    position: relative;
+    font-size: 2.5em;
+    color: gray;
+    left: 25px
+}
+#icoVisa{
+    margin-top: 20px;
+    position: relative;
+    font-size: 2.5em;
+    color: gray;
+    left: 15px
+}
+#icoMas{
+    margin-top: 20px;
+    position: relative;
+    font-size: 2.5em;
+    color: gray;
+    left: 35px
+}
+#icoDiner{
+    margin-top: 20px;
+    position: relative;
+    font-size: 2.5em;
+    color: gray;
+    left: 20px
+}
+#icoDis{
+    margin-top: 20px;
+    position: relative;
+    font-size: 2.5em;
+    color: gray;
+    left: 22px
+}
+#icoAme{
+    margin-top: 20px;
+    position: relative;
+    font-size: 2.5em;
+    color: gray;
+    left: 28px
+}
+#fbIco{
+    font-size: 1.5em;
+    color: gray;
+}
+#twIco{
+    font-size: 1.5em;
+    color: gray;
+}
+#yoIco{
+    font-size: 1.5em;
+    color: gray;
+}
+#group-img{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    width: 100%;
+}
+#img_1{
+    margin-top: 15px;
+    flex: 1;
+    height: auto;
+    width: 100%;
+}
+#img_2{
+    margin-top: 15px;
+    margin-left: 10px;
+    flex: 1;
+    height: auto;
+    width: 100%;
+}
+#img_3{
+    margin-top: 15px;
+    margin-left: 10px;
+    flex: 1;
+    height: auto;
+    width: 100%;
+}
+@media (max-width: 920px) {
+    #group-img{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 720px) {
+    #navbarSupportedContent{
+        visibility: hidden;
+    }
+}
+@media (max-width: 720px){
+    .container .navbar{
+        flex-wrap: nowrap;
+    }
+}*/

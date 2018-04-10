@@ -1,0 +1,36 @@
+$size-btn-width: 50px;
+$size-btn-heigth: 40px;
+$background: #F2F2F2;
+$font-size-btn: 1.5em;
+$color-btn: gray;
+.container-fluid.ccf {
+  background: $background;
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  padding: 0;
+  .container {
+    justify-content: space-between;
+    .navbar {
+      #navbarSupportedContent {
+        flex: 1;
+        .btn-addon {
+          background: #FF5020;
+        }
+      }
+      #group-ico {
+        .nav-item {
+          .ico-nav {
+            border: 0;
+            margin-left: 5px;
+            width: $size-btn-width;
+            height: $size-btn-heigth;
+            background: $background;
+            font-size: $font-size-btn;
+            color: $color-btn;
+          }
+        }
+      }
+    }
+  }
+}
